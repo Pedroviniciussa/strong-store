@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Editar pesquisa de Satisfação</h1>
+        <!-- Formulário de Dados do Usuário -->
+        <form id="pesquisaForm" action="editar-pesquisa.jsp" method="POST">
+            <div class="form-group">
+                <input id="name" name="name" type="name" required placeholder="Informe o id">
+            </div>
+            <div class="form-group">
+                <input id="name" name="name" type="name" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+                <input id="idade" name="idade" type="number" required placeholder="Idade">
+            </div>
+
+            <div class="form-group">
+                <input id="email" name="email" type="email" required placeholder="Digite seu email...">
+            </div>
+
+            <!-- Perguntas com Checkbox -->
+            <div class="checkbox-group">
+                <label>1. Como você avalia o atendimento da loja?</label>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="pergunta1" value="excelente"> Excelente
+                    <input type="checkbox" name="pergunta1" value="bom"> Bom
+                    <input type="checkbox" name="pergunta1" value="regular"> Regular
+                    <input type="checkbox" name="pergunta1" value="ruim"> Ruim
+                    <input type="checkbox" name="pergunta1" value="péssimo"> Péssimo
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <label>2. Como você avalia a qualidade dos suplementos?</label>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="pergunta2" value="excelente"> Excelente
+                    <input type="checkbox" name="pergunta2" value="bom"> Bom
+                    <input type="checkbox" name="pergunta2" value="regular"> Regular
+                    <input type="checkbox" name="pergunta2" value="ruim"> Ruim
+                    <input type="checkbox" name="pergunta2" value="péssimo"> Péssimo
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <label>3. Você recomendaria nossa loja a outras pessoas?</label>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="pergunta3" value="sim"> Sim
+                    <input type="checkbox" name="pergunta3" value="não"> Não
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <label>4. Qual a sua satisfação com o preço dos suplementos?</label>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="pergunta4" value="excelente"> Excelente
+                    <input type="checkbox" name="pergunta4" value="bom"> Bom
+                    <input type="checkbox" name="pergunta4" value="regular"> Regular
+                    <input type="checkbox" name="pergunta4" value="ruim"> Ruim
+                    <input type="checkbox" name="pergunta4" value="péssimo"> Péssimo
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <label>5. Como você avalia a variedade de suplementos disponíveis?</label>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="pergunta5" value="excelente"> Excelente
+                    <input type="checkbox" name="pergunta5" value="bom"> Bom
+                    <input type="checkbox" name="pergunta5" value="regular"> Regular
+                    <input type="checkbox" name="pergunta5" value="ruim"> Ruim
+                    <input type="checkbox" name="pergunta5" value="péssimo"> Péssimo
+                </div>
+            </div>
+
+            <!-- Caixa de Observações -->
+            <div class="observation">
+                <textarea id="observacao" name="observacao" placeholder="Deixe sua observação aqui..."></textarea>
+            </div>
+
+            <!-- Botão para Enviar o Formulário -->
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Renviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

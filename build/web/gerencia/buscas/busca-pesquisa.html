@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Pesquisa</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Busca Pesquisa</h1>
+
+        <!-- Formulário de Busca -->
+        <form action="buscar-pesquisa-resultado.jsp" method="POST">
+            <div class="form-group">
+                <label for="id-pesquisa">Digite o ID da Pesquisa:</label>
+                <input type="number" id="id-pesquisa" name="id-pesquisa" required>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Buscar</button>
+                <button type="button" class="admin-button" onclick="window.location.href='../gerencia.jsp';">Menu Admin</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
