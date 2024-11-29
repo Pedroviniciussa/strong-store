@@ -3,12 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/pesquisa/processa-pesquisa.jsp</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/buscas/todas-pesquisas.jsp</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/buscas/editar-pesquisa.jsp</file>
             <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/database/DataSource.java</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/buscas/deletar-pesquisa.jsp</file>
             <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/dao/CandidatoDAO.java</file>
-            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/pesquisa/pesquisa.html</file>
-            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/dao/FuncionarioDAO.java</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/Funcionario.java</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/buscas/busca-pesquisa.html</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/buscas/processa-pesquisa-edit.jsp</file>
             <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/index.html</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/gerencia.jsp</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/gerencia/buscas/relatorio.jsp</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/Candidato.java</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/web/pesquisa/pesquisa.html</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/Relatorio.java</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/RelatorioPorIdade.java</file>
+            <file>file:/C:/Users/arauj/OneDrive/Documentos/NetBeansProjects/StrongStore/src/java/model/dao/FuncionarioDAO.java</file>
         </group>
     </open-files>
 </project-private>
